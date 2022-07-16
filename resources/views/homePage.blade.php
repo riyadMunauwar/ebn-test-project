@@ -27,7 +27,7 @@
                     <div class="col-md-3 m-2 border">
                         <a href="/{{ $store->slug }}">
                             <figure class="figure">
-                                <img src="https://static-01.daraz.com.bd/p/60682626d1382592b97e7d219259871d.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <img src="{{$store->logo}}" class="figure-img img-fluid rounded" alt="...">
                                 <figcaption class="figure-caption text-center">{{ $store->name }}</figcaption>
                                 <span class="mt-2 text-center d-block small">{{ $store->district }}</span>
                             </figure>
