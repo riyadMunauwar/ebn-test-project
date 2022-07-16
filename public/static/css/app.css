@@ -1,0 +1,118 @@
+/* Ebn Shop Custom CSS */
+
+/* Varialbe */
+:root {
+    --theme-primary: ;
+    --theme-primary-light: ;
+    --theme-primary-dark: ;
+
+    --theme-secondary: ;
+    --theme-secondary-light: ;
+    --theme-secondary-dark: ;
+
+    --text-primary: var(--bs-gray-800);
+    --text-secondary: var(--bs-gray-400);
+    --text-dark: var(--bs-gray-dark);
+
+    --background-color: ;
+    --component-background-color: ;
+
+    --black: #000;
+    --white: #fff;
+
+    --border: var(--bs-gray-200);
+    --accent: ;
+
+    --danger: ;
+    --warning: ;
+    --info: ;
+}
+
+body {
+    color: var(--text-primary);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Sections */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
+.header {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem;
+}
+
+/* Search Box */
+.search-box {
+    border: 1px solid var(--border);
+    width: 50%;
+    height: 3rem;
+}
+.search-box .search-form {
+    height: 100%;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 0.5rem;
+    height: 100%;
+}
+
+.search-box button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: var(--black);
+    color: var(--white);
+}
+/* --------------------------- 
+            Banner
+ --------------------------- */
+.banner-heading-primary {
+    /* padding: 0.5rem 1rem; */
+    /* background-color: var(--black); */
+    /* color: var(--white); */
+    font-weight: 900;
+    font-size: 2rem;
+}
+.banner-heading-secondary {
+    /* padding: 0.5rem 1rem; */
+    /* background-color: var(--bs-gray-800); */
+    /* color: var(--white); */
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* --------------------------- 
+            Footer
+ --------------------------- */
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+/* --------------------------- 
+            Header
+ --------------------------- */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
+
+/* --------------------------- 
+            Header
+ --------------------------- */
